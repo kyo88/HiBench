@@ -24,9 +24,9 @@ export HIBENCH_VERSION="2.2"
 
 ###################### Global Paths ##################
 
-HADOOP_EXECUTABLE= 
-HADOOP_CONF_DIR=
-HADOOP_EXAMPLES_JAR=
+HADOOP_EXECUTABLE=/opt/cloudera/parcels/CDH/lib/hadoop
+HADOOP_CONF_DIR=/etc/hadoop/conf
+HADOOP_EXAMPLES_JAR=/opt/cloudera/parcels/CDH/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 HADOOP_HOME=`printenv HADOOP_HOME`
 HADOOP_EXECUTABLE=`printenv HADOOP_EXECUTABLE`
 HIBENCH_HOME=`printenv HIBENCH_HOME`
